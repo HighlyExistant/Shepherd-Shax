@@ -1,0 +1,16 @@
+[package]
+name = "shepherd"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+seraphine = { path="../seraphine/" }
+drowsed_math = { path="../holly/drowsed_math/", features=["glsl"] }
+yum_mocha = { path="../holly/yum_mocha/" }
+ash = { version = "0.37.2", features = ["linked", "debug"] }
+shax = { path="../holly/shax/" }
+winit = "0.28.6"
+bytemuck = "1.13.1"
+mp4 = "0.14.0"
